@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-box{
+position: relative;
+border: 4px solid black;
+border-radius: 15px;
+width: 97%;
+height: 110px;
+top: 30px;
+margin: 0 auto;
+}
+
+[class*="yellow"]{
+    background-color: rgb(241, 241, 3);
+    height: 66px;
+    top: 21%;
+    position: absolute;
+}
+.main-box .left-yellow{
+    left: 2%;
+    width: 70px;
+}
+.main-box .biggest-yellow{
+    left: 20%;
+    width: 800px;
+}
+.main-box .right-yellow{
+    right: 5%;
+    width: 100px;
+}
+[class*="blue"]{
+    position: absolute;
+    height: 50px;
+    bottom: 0;
+    background-color: rgb(104, 104, 252);
+}
+.main-box .biggest-yellow .left-blue{
+    width: 205px;
+    left: 4%;
+    height: 55px;
+}
+.main-box .biggest-yellow .middle-blue{
+    width: 190px;
+    left: 45%;
+}
+.main-box .biggest-yellow .right-blue{
+    width: 100px;
+    right: 4%;
+}
+.main-box .biggest-yellow .left-blue .red{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 55px;
+    height: 40px;
+    background-color: rgb(233, 3, 3);
+}
+.main-box .right-yellow .green-empty{
+    position: relative;
+    border: 4px solid green;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    top: 12%;
+}

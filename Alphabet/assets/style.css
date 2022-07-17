@@ -1,0 +1,17 @@
+
+.alphabet{
+    width: 99%;
+    height: 25vh;
+    border: 4px solid black;
+    overflow-y: scroll;
+}
+[class*="letter"]{
+    height: 30px;
+    background-color: rgb(165, 162, 162);
+    position: sticky;
+    top: 0;
+}
+h2{
+    color: rgb(49, 48, 48);
+}
+

@@ -1,0 +1,56 @@
+.post{
+    width: 30%;
+    margin: 0 auto;
+    height: 65vh;
+    padding: 2% 2%;
+    border: 1px solid black;
+}
+.post .image{
+    width: 100%;
+    height: 58%;
+    background-image: url(https://www.trendingus.com/wp-content/uploads/2022/06/Trending-Group-Names-for-Friends-960x540.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    background-position: center;
+    position: relative;
+}
+.post .image .trending{
+    position: absolute;
+    bottom: 10%;
+    width: 130px;
+    height: 40px;
+    background-color: white;
+}
+.post .image .trending span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: block;
+    position: absolute;
+    color: #313231;
+    left: 13%;
+    top: 24%;
+}
+.date-info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(201, 194, 194);
+}
+.post .title-desc .title h2{
+font-family: Montserrat;
+color: #313231;
+/* font-weight: 400; */
+}
+.post .title-desc .desc p{
+    font-family: Montserrat;
+    font-weight: bold;
+    color:#3f3932;
+    text-align: justify;
+}
+/* .post .image::before{
+    content: '#TRENDING';
+    background-color: white;
+    position: absolute;
+    bottom: 10%;
+    font-size: 20px;
+} */
